@@ -1,0 +1,4 @@
+node_modules/
+*.log
+sim-output-*.csv
+sim-output-*.jsonl

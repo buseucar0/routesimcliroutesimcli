@@ -1,0 +1,41 @@
+{
+  "version": "2.0",
+  "exportDate": "2026-02-19T12:00:00.000Z",
+  "appName": "Routesim",
+  "vehicles": [
+    {
+      "id": "arac1",
+      "ip": "127.0.0.1",
+      "port": 2021,
+      "lat": 39.925,
+      "lng": 32.866,
+      "speed": 0,
+      "heading": 0,
+      "path": [
+        { "lat": 39.925, "lng": 32.866, "hops": 0, "stepHop": 0 },
+        {
+          "lat": 39.930, "lng": 32.870, "hops": 5, "freq": 10, "duration": 1.25, "waitTime": 0,
+          "v2x": {
+            "velocityKmh": 60,
+            "eebl": false, "lightBar": true, "siren": true,
+            "flasher": false, "foglight": false, "drl": false,
+            "wiper": 0, "leftSignal": false, "rightSignal": false
+          }
+        },
+        {
+          "lat": 39.935, "lng": 32.875, "hops": 3, "freq": 10, "duration": 0.8, "waitTime": 0,
+          "v2x": {
+            "velocityKmh": 40,
+            "eebl": false, "lightBar": false, "siren": false,
+            "flasher": true, "foglight": false, "drl": true,
+            "wiper": 2, "leftSignal": true, "rightSignal": false
+          }
+        }
+      ]
+    }
+  ],
+  "rsus": [
+    { "id": "RSU-1", "ip": "127.0.0.1", "port": 3001, "lat": 39.928, "lng": 32.868 }
+  ],
+  "savedPaths": []
+}
