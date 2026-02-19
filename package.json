@@ -1,0 +1,12 @@
+{
+  "name": "routesim-cli",
+  "version": "1.0.0",
+  "description": "Routesim CLI — headless V2X vehicle simulation",
+  "main": "cli/cli-sim.js",
+  "scripts": {
+    "sim": "node cli/cli-sim.js",
+    "test": "node test/test-all.js"
+  },
+  "keywords": ["v2x", "simulation", "cli"],
+  "license": "MIT"
+}
